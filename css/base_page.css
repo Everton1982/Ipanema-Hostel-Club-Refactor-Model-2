@@ -1,0 +1,772 @@
+/*  ------------------------------------------------------  */
+/*  ---------------   INDEX  ------------------------------  */
+/*  ------------------------------------------------------  */
+.body_principal {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../mkte_x/images/bg_principal.jpg);
+	background-position: center;
+	background-attachment:fixed;
+}
+#table_container {}
+#principal{
+	width: 920px;
+	background-color: #FFFFFF;
+	background-repeat: repeat;
+}
+#menu_html_topo{ display:inline }
+
+
+#flash_ppanel{ 
+	width: 165px;
+} /* Flash Painel de Publicidade */
+
+
+#tr_principal{ }
+
+
+
+#td_left{
+	width: 220px;
+	background-color: #E5E5E5;
+}
+#td_iframe{
+	width: 700px;
+	background-color: #FFF;
+}
+
+
+
+#td_rodape {
+	background-color: #E5E5E5;
+}
+
+
+#menu_topo{
+	background-color: #E5E5E5;
+		
+}
+
+#menu_logo{
+	float: left;
+	background-color: #FFF;
+	width: 345px;
+	height: 240px;
+	text-align: center;
+	padding: 10px;
+}
+
+#menu_direita
+{
+	float: right;
+	margin-right: 20px;
+	max-width:500px;
+}
+
+#menu_botoes
+{
+	clear:both;
+}
+
+.menu_botao
+{
+	height: 30px;
+	width: 184px;
+	border: 1px solid #C0C0C0;
+	text-align: center;
+
+background: rgb(174,188,191); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(174,188,191,1) 0%, rgba(110,119,116,1) 50%, rgba(10,14,10,1) 51%, rgba(10,8,9,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(174,188,191,1)), color-stop(50%,rgba(110,119,116,1)), color-stop(51%,rgba(10,14,10,1)), color-stop(100%,rgba(10,8,9,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(174,188,191,1) 0%,rgba(110,119,116,1) 50%,rgba(10,14,10,1) 51%,rgba(10,8,9,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(174,188,191,1) 0%,rgba(110,119,116,1) 50%,rgba(10,14,10,1) 51%,rgba(10,8,9,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(174,188,191,1) 0%,rgba(110,119,116,1) 50%,rgba(10,14,10,1) 51%,rgba(10,8,9,1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(174,188,191,1) 0%,rgba(110,119,116,1) 50%,rgba(10,14,10,1) 51%,rgba(10,8,9,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809',GradientType=0 ); /* IE6-9 */
+	
+}
+
+.menu_botao a{
+	display:block;
+	height:100%;
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: bold;
+	color:#FFF;
+	text-decoration:none;
+}
+
+.menu_botao a:hover{
+	display:block;
+	color:#000;
+	text-decoration:none;
+	
+	background: rgb(229,229,229); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(229,229,229,1) 0%, rgba(241,241,241,1) 50%, rgba(165,165,165,1) 52%, rgba(246,246,246,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,229,229,1)), color-stop(50%,rgba(241,241,241,1)), color-stop(52%,rgba(165,165,165,1)), color-stop(100%,rgba(246,246,246,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(241,241,241,1) 50%,rgba(165,165,165,1) 52%,rgba(246,246,246,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(241,241,241,1) 50%,rgba(165,165,165,1) 52%,rgba(246,246,246,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(241,241,241,1) 50%,rgba(165,165,165,1) 52%,rgba(246,246,246,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(241,241,241,1) 50%,rgba(165,165,165,1) 52%,rgba(246,246,246,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+
+}
+
+/*  ------------------------------------------------------  */
+/*  ---------------   HTML  ------------------------------  */
+/*  ------------------------------------------------------  */
+
+body {
+	color: #000000;
+	font-size: 12px;
+	font-family: 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+	margin: 0;
+}
+h1, h2, h3 {
+	font-family: 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+	color: #000; /* Borda inferior do título - 1px é a espessura; dotted (pontilhado) é o tipo; #C0C0C0 é a cor */
+	clear: both;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #EFB94C;
+}
+h2 {
+	padding-top: 40px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+}
+hr {
+	border-color: #666666;
+	border-style: dotted none none;
+	border-width: 1px medium medium;
+	color: #FFFFFF;
+	height: 5px;
+	margin: 10px 0;
+}
+th, td, ul, li {
+	font-weight: bold;
+}
+p {
+	color: #000000;
+	margin-top: 5px;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	line-height:120%;
+	font-weight: bold;
+}
+a {
+	font-size: 12px;
+	color: #0000FF;
+	text-decoration: none;
+}
+a:hover, a:focus {
+	text-decoration: underline;
+	color: #000099;
+}
+.link_externo{	
+	padding-right: 15px; /* Distância da imagem para o link */
+	margin-right: 5px;	/* Distância (margem) do link para o elemento à direita - neste caso, a próxima frase. */
+	background: url(../mkte_x/images/img_lnk_popup.jpg) no-repeat center right;	
+}
+
+/*  ------------------------------------------------------  */
+/*  ---------------   MENU ONDE ESTOU  -------------------  */
+/*  ------------------------------------------------------  */
+
+.menu_onde_estou {
+	color: #666666;
+	border-bottom: none;
+}
+.menu_onde_estou a {
+	font-size: 16px;
+	color: #999999;
+}
+.menu_onde_estou_selecionado {
+	font-size: 16px;
+	color: #000000;
+	font-weight: bold;
+	border-bottom: none;
+}
+/*  ------------------------------------------------------  */
+/*  ---------------   MENU LATERAL  ----------------------  */
+/*  ------------------------------------------------------  */
+/* 
+	.menu_lateral_X
+		X   n1, n2 ou n3  é o nível do menu.
+*/
+
+
+.menu_lateral_table {
+	border: 1px solid #FFF;
+	
+}
+
+
+/* 
+	------------------------------------------------------
+	MENU NÍVEL 1
+*/
+
+.menu_lateral_titulo{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 5px;
+	background-color: #FFF;
+	
+}
+
+.menu_lateral_n1 a {
+	background-image: url(../mkte_x/images/icones_mini/nova_setinha.gif);
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	border-right: #C3C8CB 1px solid;
+	border-top: #FFFFFF 1px solid;
+	border-bottom: #C3C8CB 1px solid;
+	border-left: #EDEEEF 1px solid;
+	font-weight: normal;
+	color: #000000;
+	margin: 0;
+	background-color: #CCCCCC;
+	font-size: 9pt;
+	text-decoration: none;
+	text-align: left;
+	display: block;
+	padding-left: 20px;
+	padding-right: 0;
+	padding-bottom: 7px;
+	padding-top: 7px;
+}
+/* O a:focus permite ativar o efeito pelo teclado */
+.menu_lateral_n1 a:hover, .menu_lateral_n1 a:focus {
+	border-top: #C3C8CB 1px solid;
+	border-bottom: #FFFFFF 1px solid;
+	color: #1A63BD;
+	background-color: #F1F1F1;
+}
+/* 
+	------------------------------------------------------
+	NÍVEL 2
+*/
+.menu_lateral_n2 a {
+	background-image: url(../mkte_x/images/icones_mini/nova_bolinha.gif);
+	background-repeat: no-repeat;
+	background-position: 15px center;
+	border-right: #C3C8CB 1px solid;
+	border-top: #FFFFFF 1px solid;
+	border-bottom: #C3C8CB 1px solid;
+	border-left: #EDEEEF 1px solid;
+	font-weight: normal;
+	color: #000000;
+	margin: 0;
+	background-color: #CCCCCC;
+	font-size: 9pt;
+	text-decoration: none;
+	text-align: left;
+	display: block;
+	padding-left: 30px;
+	padding-right: 0;
+	padding-bottom: 7px;
+	padding-top: 7px;
+}
+.menu_lateral_n2 a:hover, .menu_lateral_n2 a:focus {
+	border-top: #C3C8CB 1px solid;
+	border-bottom: #FFFFFF 1px solid;
+	color: #1A63BD;
+	background-color: #F1F1F1;
+}
+/* 
+	------------------------------------------------------
+	NÍVEL 3
+*/
+.menu_lateral_n3 a {
+	background-image: url(../mkte_x/images/icones_mini/nova_bolinha.gif);
+	background-repeat: no-repeat;
+	background-position: 25px center;
+	border-right: #C3C8CB 1px solid;
+	border-top: #FFFFFF 1px solid;
+	border-bottom: #C3C8CB 1px solid;
+	border-left: #EDEEEF 1px solid;
+	font-weight: normal;
+	color: #000000;
+	margin: 0;
+	background-color: #CCCCCC;
+	font-size: 9pt;
+	text-decoration: none;
+	text-align: left;
+	display: block;
+	padding-left: 40px;
+	padding-right: 0;
+	padding-bottom: 7px;
+	padding-top: 7px;
+}
+.menu_lateral_n3 a:hover, .menu_lateral_n3 a:focus {
+	border-top: #C3C8CB 1px solid;
+	border-bottom: #FFFFFF 1px solid;
+	color: #1A63BD;
+	background-color: #F1F1F1;
+}
+/*  ------------------------------------------------------  */
+/*  ---------------   DEPOIMENTOS  -----------------------  */
+/*  ------------------------------------------------------  */
+/* Box depoimentos */
+#depoimentos{}
+/* Box emotions */
+#emotions{} 
+/* Todos os emotions */
+#e01, #e02, #e03, #e04, #e05, #e06, #e07, #e08, #e09, #e10, #e11, #e12, #e13, #e14, #e15, #e16, #e17, #e18, #e19, #e20, #e21 { border: 1px solid #CCC; padding: 2px; margin: 2px; }
+
+.sem_borda { /* Para o título <h2> "Nenhum comentário encontrado", em widget.php */
+	border: none; 
+	padding-top: 20px;
+}
+.coment_container {
+	width: 90%; margin-bottom: 20px;
+}
+.coment_foto {
+}
+.coment_topo {
+	color: #999;
+	font-size: 12px;
+}
+.dialogo_icone{ float:left; width: 25px; min-height: 80px; background: transparent url(../mkte_x/images/bg_comment_element.gif) no-repeat center left;}
+.coment_miolo {
+	min-height: 80px;
+	background: #FFF;
+	padding: 10px 20px;
+	border: #EDEDED 5px solid;
+	margin-left: 14px; /* "Empurra" o box cinza para a direita, para posicionar a seta de diálogo */
+}
+.coment_rodape {
+	padding-left: 20px; /* Alinha o conteúdo do rodapé com o box cinza */
+}
+
+.foto{
+	border: #EDEDED 5px solid;
+	max-width: 70px;
+	min-width: 53px;
+	max-height: 70px;
+	min-height: 53px;
+}
+.respostas, .excluir { float:left; margin-right:10px; }
+.avaliar { float:right; }
+.avaliacao_positiva{
+	color: #060; 	 
+	padding: 0 0 0 22px; /* Distancia o texto da imagem */	
+	background: transparent url(../mkte_x/images/icones_mini/smiley_feliz.png) no-repeat center left;
+	text-align: left;
+}
+.avaliacao_positiva:hover, .avaliacao_positiva:focus{ color: #060; }
+.avaliacao_negativa{ 
+	color: #F00;
+	padding: 0 0 0 22px; /* Distancia o texto da imagem */	
+	background: transparent url(../mkte_x/images/icones_mini/smiley_triste.png) no-repeat center left;
+	text-align: left;
+}
+.avaliacao_negativa:hover, .avaliacao_negativa:focus{ color: #F00; }
+.excluir_post { 
+	padding: 0 0 0 18px; /* Distancia o texto da imagem */	
+	background: transparent url(../mkte_x/images/icones_mini/lixeira.gif) no-repeat center left;
+	text-align: left;
+}
+
+#div_total_paginas{ display:none; }
+#div_comentarios_mostrar_mais{ display:none; display:block; background: #E9E9E9 repeat; text-align:center;}
+/* Exibe a imagem ao lado do ícone */
+.mostrar_mais{
+	padding: 0 25px 0 25px; /* Distancia o texto da imagem */	
+	background: transparent url(../mkte_x/images/icones_mini/seta_mostrar_mais.png) no-repeat center left;
+	text-align: left;
+}
+
+/*  ------------------------------------------------------  */
+/*  ---------------   LISTA DE PRODUTOS OU FOTOS  --------  */
+/*  ------------------------------------------------------  */
+
+.item a {
+	text-align: center;
+	vertical-align: top;
+	display: block;
+	padding: 5px;
+	height: 90%;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+}
+.item a:hover, .item a:focus {
+	background-color: #EFB94C;
+	border: 1px solid #A3730E;
+}
+.item {
+	display: block;
+	width: 150px;
+	height: 152px;
+	overflow: hidden;
+	padding: 0;
+}
+.item_geral {
+	float: left;
+	margin: 5px;
+}
+.item_carrinho {
+	display: block;
+	text-align: center;
+}
+/* Responsável pelo ícone de comentários em todas as páginas */
+.icone_comentarios{
+	padding: 0 0 0 25px;	
+	background: transparent url(../mkte_x/images/icones_mini/comentario.gif) no-repeat center left;
+}
+
+/*  ------------------------------------------------------  */
+/*  ---------------   TABELAS (E DIVS)  ------------------  */
+/*  ------------------------------------------------------  */
+
+/* Define o tamanho da tabela principal de todas as páginas que abrem dentro do iframe */
+#miolo { width: 100%; border: 0;}
+/* Tabela principal da galeria de fotos "StandAlone" */
+#galeria_fotos_principal { width: 990px; border: 0; background-color: #FFFFFF;} 
+/* Define o tamanho da tabela com o título e o botão voltar */
+#titulo { width: 100%; border: 0; margin-bottom: 20px;}
+/* Tabela com o título da galeria de fotos "StandAlone" */
+#titulo_galeria_fotos { width: 970px; border: 0; margin-bottom: 20px; margin-top: 10px; margin-left: auto; margin-right: auto; }
+#editar_perfil{ width: 500px; margin-left: auto; margin-right: auto;} /* Div "Atualizar Meu Perfil" */
+.tbl_borda {
+	border: 1px solid #CCC;
+	background-color: #FFF;
+	border-spacing: 0px;
+}
+.tbl_titulo {
+	font-weight: bolder;
+	font-size: 16px;
+	color: #666666;
+	height: 20px;
+	text-align: left;
+	background-color: #EEEEEE;
+	padding: 5px;
+}
+.tbl_titulo2 {
+	font-weight: bold;
+	font-size: 12px;
+	color: #000000;
+	background-image: none;
+	padding-left: 60px;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	background-color: #CCC;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #AAA;
+}
+.tbl_celula_zebrado1 {
+	font-weight: normal;
+	font-size: 12px;
+	color: #000000;
+	background-color: #FFFFFF;
+	padding: 5px;
+	margin: 1px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCC;
+}
+.tbl_celula_zebrado2 {
+	font-weight: normal;
+	font-size: 12px;
+	color: #000000;
+	background-color: #EFEFEF;
+	padding: 5px;
+	margin: 1px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCC;
+}
+.tbl_rodape {
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #EEE;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	text-align: center;
+	padding: 5px;
+	height: 25px;
+}
+/*  ------------------------------------------------------  */
+/*  ---------------   FORMULÁRIO  ------------------------  */
+/*  ------------------------------------------------------  */
+
+/* Permite configuração específica para cada fomulário (através do atributo id) */
+#busca_noticias { width:500px;}
+#frm_fale_conosco{}
+#frm_pedido{}
+#frm_galeria_fotos {} /* Galeria de fotos StandAlone */
+#pastas_usuarios{}
+#anexos_usuarios {}
+#frm_mural{}
+#frm_editar_foto {}
+#example{} /* Form de login */
+#frm_cadastro{}
+#frm_senha{} /* Trocar Senha */
+#frm_iud {} /* Editar Perfil */
+
+#busca_noticias fieldset, #frm_fale_conosco fieldset { border:none;}
+
+/* Permite configuração específica dos botões (através do atributo id) */
+#buscar {}
+#enviar {}
+#voltar {} /* Apenas de formulários */
+#excluir, #excluir2 {}
+#inserir{ width: 200px;} /* Botão inserir depoimentos */
+#selecionar{}
+#alterar{}
+#salvar{}
+
+/* Configurações específicas para a busca da galeria de fotos StandAlone */
+#frm_galeria_fotos #buscar { width: 60px;}
+#frm_galeria_fotos #tx_ficha_foto { width: 100px; height: 22px;}
+
+/* Permite configuração específica dos campos (através do atributo id) */
+#tx_comentarios { width: 600px; height: 120px;}
+#tx_obs{ width: 400px; height: 60px;}
+	
+
+/* Campos obrigatórios na página de login */
+.campo_obrigatorio {color: #FF0000;}
+
+/* Define o padrão visual para os campos de texto, seleção e botões */
+input[type=text], input[type=password], select {
+	height: 22px;
+	width: 300px;
+	border: 1px solid #B4B4B4;
+	color: #333333;
+	font-family: 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+	font-size: 12px;
+	margin: 1px;
+}
+textarea {
+	height: 75px;
+	width: 300px;
+	border: 1px solid #B4B4B4;
+	color: #333333;
+	font-family: 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+	font-size: 12px;
+	margin: 1px;
+}
+input[type=text]:focus, textarea:focus, select:focus {
+	border: 2px solid #960;
+	color: #333333;
+	background-color: #FFC;
+	margin: 1px;
+}
+input[type=submit], input[type=button] {
+	height: 24px;
+	width: 150px;
+	border: 1px solid #B4B4B4;
+	font-family: 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+	font-weight : bold;
+	font-size : 12px;
+	color: #00C;
+	background-color: #CCC;
+	cursor: pointer;
+	margin-top: 1px;
+	margin-right: 3px;
+	margin-bottom: 1px;
+	margin-left: 3px;
+}
+input[type=submit]:hover, input[type=submit]:focus, input[type=button]:hover, input[type=button]:focus {
+	background-color: #DFF9FF;
+	border-top-color: #00C;
+	border-right-color: #00C;
+	border-bottom-color: #00C;
+	border-left-color: #00C;
+	text-decoration: underline;
+}
+input[type=submit][disabled], input[type=button][disabled] {
+	border: 1px solid #333;
+	color: #666;
+	background-color: #CCC;
+	cursor: default;
+}
+
+/*  ------------------------------------------------------  */
+/*  ------------ ESTILOS DE AVISO AO USUÁRIO -------------  */
+/*  ------------------------------------------------------  */
+
+/* Configuração geral para avisos (erro, sucesso, atenção, nenhum_encontrado, etc) */
+.aviso_erro, .aviso_sucesso, .aviso_atencao, .aviso_nenhum_encontrado {
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	padding: 8px 10px 8px 36px;
+	margin:15px 0;
+	text-align:center;
+}
+/* Configurações específicas de cada aviso */
+
+.aviso_sucesso {
+	color: #648434;
+	border: 1px solid #9BCC54;
+	background: #CDEFA6 10px 50% no-repeat;
+}
+.aviso_erro {
+	color: #CF3738;
+	border: 1px solid #FFACAD;
+	background: #FFD5D5 10px 50% no-repeat;
+}
+.aviso_atencao {
+	color: #B79000;
+	border: 1px solid #E7BD72;
+	background: #FFF3A3 10px 50% no-repeat;
+}
+.aviso_nenhum_encontrado{
+	color: #666;
+	border: 1px solid #E5E5E5;
+	background: #F6F6F6 10px 50% no-repeat;
+}
+
+/*  ------------------------------------------------------  */
+/*  --------------   CONTEÚDO DAS PÁGINAS  ---------------  */
+/*  ------------------------------------------------------  */
+
+/* Botão voltar no título das páginas */
+.bt_voltar { width: 80px; height: 22px; border: none;} /* Configura a imagem transparente */
+#bg_voltar { width: 80px; height: 22px; background: url(../mkte_x/images/bt_voltar_bg.png) transparent right no-repeat;} /* Configura o botão de plano de fundo (o que realmente é visto como "botão voltar") */
+
+/* Home */
+#page_preview, #noticias_home { margin-bottom:20px;}
+.box_topo{ 
+	font-weight: bolder;
+	font-size: 16px;
+	color: #666666;
+	background-color: #F5F5F5; 
+	background-repeat: repeat;
+	padding: 5px;
+	border-bottom: 1px solid #EBEBEB;
+}
+.box_meio { background-color:#E6F5FC ; background-repeat:repeat; padding: 5px;}
+#noticias_home .box_meio { height: 145px;}
+.box_rodape{ height: 20px; background-color: #EFEFEF; background-repeat:repeat; padding: 5px; margin-bottom: 20px; }
+
+.produtos_home, .fotos_home { margin-left: auto; margin-right: auto; width: 95%; } 
+
+/* Notícias */
+.seta_noticia{ /* Insere o ícone a esquerda dos links das notícias */
+	margin: 0 10px 0 0;
+	padding: 0 0 0 20px; /* Distancia o texto da imagem */	
+	background: transparent url(../mkte_x/images/icones_mini/seta.png) no-repeat center left;
+	text-align: left;
+}
+/* Produto */
+/* Lista ícones da seção Participe */
+ul.icones_participe {
+	margin: 0;
+	padding: 0;
+}
+ul.icones_participe li {
+	list-style: none;
+	float: left;
+}
+li.icone_indicar a, li.icone_voltar a, li.youtube_dir a, li.flickr_dir a, li.rss_dir a, li.linkedin_dir a {
+	display: block;
+	width: 160px;
+	height: 66px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+li.icone_indicar a { 	
+	background-image:url(../mkte_x/images/bt_indicar.jpg);
+	background-repeat:no-repeat;
+}
+li.icone_voltar a { 	
+	background-image:url(../mkte_x/images/bt_voltar.jpg);
+	background-repeat:no-repeat;
+}
+/* Pedido */
+.cor_dinheiro{ color:#666666;}
+
+/* Galeria de Fotos - StandAlone */
+#bg_galeria_fotos { background-color: #DDDDDD; background-repeat:repeat;}
+#logo_galeria_fotos{ width: 100%; text-align:left;}
+#busca_galeria_fotos { width: 200px;}
+#categorias_galeria { width: 170px; margin-left: 5px; }
+/*#categorias_galeria td { padding-left: 5px; padding-right: 10px; }*/
+.bg_topo { background: url(../mkte_x/images/galeria_fotos/bg_topo_galeria_standalone.jpg) no-repeat top; height:140px; vertical-align: middle; text-align: center;}
+.bg_categorias { background-color: #CCCCCC; background-repeat:repeat;}
+/* Galeria de fotos - Estilo Orkut */
+#foto_estilo_orkut { margin-top: 20px; border: 10px #CCCCCC solid; }
+#foto_estilo_orkut:hover, #foto_estilo_orkut:focus { border: 10px #FFCC00 solid; }
+.foto_anterior{
+	margin: 0;
+	padding: 10px 35px 10px 0; /* Distancia o texto da imagem */	
+	background: transparent url(../mkte_x/images/galeria_fotos/seta_esquerda.png) no-repeat center right;
+	text-align: left;
+}
+.prox_foto{
+	margin: 0;
+	padding: 10px 0 10px 35px; /* Distancia o texto da imagem */	
+	background: transparent url(../mkte_x/images/galeria_fotos/seta_direita.png) no-repeat center left;
+	text-align: left;
+}
+
+/* Cadastro */
+#div_form_cadastro, #div_verifica_email, #div_msg_email_cadastrado{ width: 500px; margin-left: auto; margin-right: auto; margin-bottom:15px;}
+
+/* Modos Execução */
+.modo_normal {
+	color: #0000FF;
+	font-weight: bold;
+}
+.modo_nao_personalizado {
+	color: #006600;
+	font-weight: bold;
+}
+.modo_edicao {
+	color: #FF00FF;
+	font-weight: bold;
+}
+.modo_debug {
+	color: #F00;
+	font-weight: bold;
+	background-color: #000;
+	padding: 1px;
+}
+
+/* Classes utilizadas em várias páginas */
+.fotos_categorias{ /* categorias, galeria de fotos (home) e produto */
+	margin-left: auto; margin-right: auto; width: 90%; text-align: center;} 
+
+.lista_paginas{ /* Insere o ícone a esquerda dos links da lista de páginas */
+	margin: 0 10px 0 0;
+	padding: 10px 0 5px 20px;	
+	background: transparent url(../mkte_x/images/icones_mini/page.gif) no-repeat center left;
+	text-align: left;
+}
+.lista_pastas{ /* Insere o ícone a esquerda dos links das categorias de páginas */
+	margin: 0 10px 0 0;
+	padding: 10px 0 5px 20px;	
+	background: transparent url(../mkte_x/images/icones_mini/folder.gif) no-repeat center left;
+	text-align: left;
+}
+
+.link_reserva a{
+	display:block;
+	height:55px;
+	line-height:55px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	padding-left: 10px;
+}
