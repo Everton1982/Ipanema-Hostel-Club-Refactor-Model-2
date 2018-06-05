@@ -1,4 +1,7 @@
 # Ipanema-Hostel-Club-Refactory
+
+MODEL 2
+
 Refactory and updates
 
 The site in this repository has been updated in parts of the previously written code.
