@@ -2,7 +2,7 @@
 
 MODEL 2
 
-Refactory and updates
+Refactor and updates
 
 The site in this repository has been updated in parts of the previously written code.
 
